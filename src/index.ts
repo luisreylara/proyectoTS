@@ -1,6 +1,12 @@
+import { Heroe } from "./Heroe";
 
 
-console.log('Hola Mundo!');
+const ironman = new Heroe(
+    'Ironman',
+    5,
+    35
+);
+console.log (ironman);
 
 
 
